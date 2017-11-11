@@ -9,9 +9,13 @@ const Card = styled.div`
 `;
 
 const Image = styled.img`
-  width: 100;
-  height: 347px;
+  width: 100%;
+  height: 216px;
   margin-buttom: 24px;
+
+  @media screen and (min-width: 576px) {
+    height: 347px;
+  }
 `;
 
 const Name = styled.div`margin-top: 8px;`;

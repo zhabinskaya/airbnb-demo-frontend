@@ -8,12 +8,16 @@ const ExpHeader = styled.div`
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
-  align-items: center;;'
+  align-items: center;
 `;
 
 const Title = styled.h2`
-  font-size: 32px;
+  font-size: 24px;
   line-height: 34px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
 `;
 
 const SeeAll = styled.a`
@@ -47,23 +51,23 @@ export default props => (
         <Arrow src={arrow} />
       </SeeAll>
     </ExpHeader>
-    <div className="row">
-      <div className="col-3">
+    <div className="row row-nowrap">
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
         <Card img={require("./Forest therapy.png")} price="29" reviews="44">
           Forest therapy
         </Card>
       </div>
-      <div className="col-3">
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
         <Card img={require("./Whale watching.png")} price="69" reviews="34">
           Whale watching
         </Card>
       </div>
-      <div className="col-3">
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
         <Card img={require("./TMS.png")} price="$69" reviews="44">
           Table Mountain Summit, Cable Car Down
         </Card>
       </div>
-      <div className="col-3">
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
         <Slider>
           <NextPage src={nextpage} />
         </Slider>

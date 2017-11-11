@@ -26,7 +26,7 @@ const Copy = styled.p`
   line-height: 14px;
 `;
 
-const Ink = styled.div`
+const Inс = styled.div`
   display: flex;
   align-items: center;
 `;
@@ -60,10 +60,10 @@ const Icon = styled.img`
 
 export default props => (
   <Copyright>
-    <Ink>
+    <Inс>
       <Img src={logo} />
       <Copy>© Airbnb Inc.</Copy>
-    </Ink>
+    </Inс>
     <RightCopy>
       <Nav>
         <Link href="/terms">Terms</Link>
