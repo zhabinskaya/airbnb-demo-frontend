@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-const Card = styled.div`
+const Card = styled.a`
   display: flex;
   dustify-content: space-around;
   flex-direction: column;
+  text-decoration: none;
+  color: #383838;
 `;
 
 const Image = styled.img`
@@ -26,7 +28,7 @@ const City = styled.span`
 `;
 
 export default props => (
-  <Card>
+  <Card href="/card">
     <Image src={props.img} />
     <Name>
       <City>{props.city}</City>

@@ -48,7 +48,7 @@ export default props => (
       </SeeAll>
     </Header>
     <div className="row">
-      <div className="col-3">
+      <div className="col-sm-6 col-md-4 col-lg-3">
         <Card
           img={require("./Chumley’s.png")}
           category="SPEAKEASY"
@@ -57,7 +57,7 @@ export default props => (
           subtitle="About $60 per person"
         />
       </div>
-      <div className="col-3">
+      <div className="col-sm-6 col-md-4 col-lg-3">
         <Card
           img={require("./Hanjan.png")}
           category="KOREAN GASTROPUB"
@@ -66,7 +66,7 @@ export default props => (
           subtitle="About $50 per person"
         />
       </div>
-      <div className="col-3">
+      <div className="col-sm-6 col-md-4 col-lg-3">
         <Card
           img={require("./Prime Meats.png")}
           category="GERMAN AMIRICAN"
@@ -75,7 +75,7 @@ export default props => (
           subtitle="About $55 per person"
         />
       </div>
-      <div className="col-3">
+      <div className="col-sm-6 col-md-4 col-lg-3">
         <Slider>
           <NextPage src={nextpage} />
         </Slider>

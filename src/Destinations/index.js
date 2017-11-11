@@ -36,26 +36,26 @@ export default props => (
       <Title>Featured destinations</Title>
     </Header>
     <div className="row">
-      <div className="col-2">
-        <Card img={require("./Paris.png")} city="Paris" />
+      <div className="col-sm-4 col-md-3 col-lg-2">
+        <Card img={require("./paris.png")} city="Paris" />
       </div>
-      <div className="col-2">
-        <Card img={require("./Miami.png")} city="Miami" />
+      <div className="col-sm-4 col-md-3 col-lg-2">
+        <Card img={require("./miami.png")} city="Miami" />
       </div>
-      <div className="col-2">
-        <Card img={require("./Tokyo.png")} city="Tokyo" />
+      <div className="col-sm-4 col-md-3 col-lg-2">
+        <Card img={require("./tokyo.png")} city="Tokyo" />
       </div>
-      <div className="col-2">
-        <Card img={require("./Cape town.png")} city="Cape town" />
+      <div className="col-sm-4 col-md-3 col-lg-2">
+        <Card img={require("./cape-town.png")} city="Cape town" />
       </div>
-      <div className="col-2">
-        <Card img={require("./Seoul.png")} city="Seoul" />
+      <div className="col-sm-4 col-md-3 col-lg-2">
+        <Card img={require("./seoul.png")} city="Seoul" />
       </div>
-      <div className="col-2">
+      <div className="col-sm-4 col-md-3 col-lg-2">
         <Slider>
           <NextPage src={nextpage} />
         </Slider>
-        <Card img={require("./Los Angeles.png")} city="Los Angeles" />
+        <Card img={require("./los-angeles.png")} city="Los Angeles" />
       </div>
     </div>
   </div>

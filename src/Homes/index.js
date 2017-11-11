@@ -48,7 +48,7 @@ export default props => (
       </SeeAll>
     </Header>
     <div className="row">
-      <div className="col-4">
+      <div className="col sm-8 col-md-5 col-lg-4">
         <Card
           img={require("./LaSalentina.png")}
           price="82"
@@ -58,7 +58,7 @@ export default props => (
           Entire house · 9 beds
         </Card>
       </div>
-      <div className="col-4">
+      <div className="col sm-8 col-md-5 col-lg-4">
         <Card
           img={require("./YourPrivate.png")}
           price="82"
@@ -68,7 +68,7 @@ export default props => (
           Entire house · 5 beds
         </Card>
       </div>
-      <div className="col-4">
+      <div className="col sm-8 col-md-5 col-lg-4">
         <Slider>
           <NextPage src={nextpage} />
         </Slider>
