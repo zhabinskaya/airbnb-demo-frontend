@@ -27,7 +27,7 @@ const Title = styled.a`
   margin-top: 48px;
 `;
 
-const Block = styled.div`
+const Nav = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 15px;
@@ -40,11 +40,11 @@ export default props => (
   <Footer>
     <div className="container">
       <div className="row">
-        <div className="col-3 col-3-settings">
+        <div className="col-sm-6 col-md-3 col-lg-3 col-lg-3-settings">
           <Settings />
         </div>
-        <div className="col-2 col-2-airbnb">
-          <Block>
+        <div className="col-md-2 col-lg-2 col-lg-2-airbnb">
+          <Nav>
             <Title href="/airbnb">Airbnb</Title>
             <Link href="/about-us">About us</Link>
             <Link href="/careers">Careers</Link>
@@ -52,10 +52,10 @@ export default props => (
             <Link href="/policies">Policies</Link>
             <Link href="/help">Help</Link>
             <Link href="/diversity-and-belonging">Diversity & Belonging</Link>
-          </Block>
+          </Nav>
         </div>
-        <div className="col-2 col-2-discover">
-          <Block>
+        <div className="col-md-2 col-lg-2 col-lg-2-discover">
+          <Nav>
             <Title href="/discover">Discover</Title>
             <Link href="/about-us">Trust & Safety</Link>
             <Link href="/travel-credit">Travel Credit</Link>
@@ -64,16 +64,16 @@ export default props => (
             <Link href="/business-travel">Business Travel</Link>
             <Link href="/guidebooks">Guidebooks</Link>
             <Link href="/aitbnbmag">Airbnbmag</Link>
-          </Block>
+          </Nav>
         </div>
-        <div className="col-2">
-          <Block>
+        <div className="col-md-2 col-lg-2">
+          <Nav>
             <Title href="/hosting">Hosting</Title>
             <Link href="/why-host">Why Host</Link>
             <Link href="/hospitality">Hospitality</Link>
             <Link href="/responsible-hosting">Responsible Hosting</Link>
             <Link href="/community-center">Community Center</Link>
-          </Block>
+          </Nav>
         </div>
       </div>
       <Copyright />

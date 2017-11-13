@@ -3,17 +3,13 @@ import styled from "styled-components";
 import Card from "./Card";
 import arrow from "./arrow.svg";
 import nextpage from "./next-page@2x.png";
+import { Title } from "../Ui.js";
 
 const Header = styled.div`
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
   align-items: center;;'
-`;
-
-const Title = styled.h2`
-  font-size: 32px;
-  line-height: 34px;
 `;
 
 const SeeAll = styled.a`
@@ -47,40 +43,40 @@ export default props => (
         <Arrow src={arrow} />
       </SeeAll>
     </Header>
-    <div className="row">
-      <div className="col-3">
+    <div className="row row-nowrap">
+      <div className="col-xs-2 col-sm-2 col-md-4 col-lg-3">
         <Card
-          img={require("./Chumley’s.png")}
+          img={require("./chumley’s.png")}
           category="SPEAKEASY"
           reviews="97"
           title="Chumley’s"
           subtitle="About $60 per person"
         />
       </div>
-      <div className="col-3">
+      <div className="col-xs-2 col-sm-2 col-md-4 col-lg-3">
         <Card
-          img={require("./Hanjan.png")}
+          img={require("./hanjan.png")}
           category="KOREAN GASTROPUB"
           reviews="161"
           title="Hanjan"
           subtitle="About $50 per person"
         />
       </div>
-      <div className="col-3">
+      <div className="col-xs-2 col-sm-2 col-md-4 col-lg-3">
         <Card
-          img={require("./Prime Meats.png")}
+          img={require("./prime-meats.png")}
           category="GERMAN AMIRICAN"
           reviews="161"
           title="Prime Meats"
           subtitle="About $55 per person"
         />
       </div>
-      <div className="col-3">
+      <div className="col-xs-2 col-sm-2 col-md-4 col-lg-3">
         <Slider>
           <NextPage src={nextpage} />
         </Slider>
         <Card
-          img={require("./Seaprice.png")}
+          img={require("./seaprice.png")}
           category="FINE SEAFOOD"
           reviews="364"
           title="Seaprice"

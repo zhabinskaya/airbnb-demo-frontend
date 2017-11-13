@@ -2,13 +2,17 @@ import React from "react";
 import styled from "styled-components";
 
 const Navigation = styled.nav`
-  margin-top: 20px;
+  display: none;
+  margin-top: 14px;
   text-align: right;
   font-size: 14px;
   line-height: 24px;
-  display: flex;
   justify-content: space-between;
   margin-left: 189px;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 `;
 
 const Link = styled.a`

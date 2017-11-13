@@ -56,7 +56,6 @@ export default props => (
         </label>
       </form>
       <Img src={dropdown} />
-      <form />
     </Currency>
   </Settings>
 );

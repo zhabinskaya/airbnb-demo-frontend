@@ -1,24 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 import Card from "./Card";
-
-const Title = styled.h2`
-  font-size: 32px;
-  line-height: 34px;
-`;
+import { Title } from "../Ui.js";
 
 export default props => (
   <div className="container">
     <Title>Explore Airbnb</Title>
-    <div className="row">
-      <div className="col-4">
-        <Card img={require("./Homes.png")}>Homes</Card>
+    <div className="row row-nowrap">
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+        <Card img={require("./homes.png")}>Homes</Card>
       </div>
-      <div className="col-4">
-        <Card img={require("./Experiences.png")}>Experiences</Card>
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+        <Card img={require("./experiences.png")}>Experiences</Card>
       </div>
-      <div className="col-4">
-        <Card img={require("./Restaurants.png")}>Restaurants</Card>
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+        <Card img={require("./restaurants.png")}>Restaurants</Card>
       </div>
     </div>
   </div>

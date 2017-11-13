@@ -6,12 +6,17 @@ const Card = styled.div`
   display: flex;
   dustify-content: space-around;
   flex-direction: column;
+  max-width: 240px;
 `;
 
 const Image = styled.img`
-  width: 100;
-  height: 347px;
-  margin-buttom: 24px;
+  width: 100%;
+  height: 216px;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 768px) {
+    height: 346px;
+  }
 `;
 
 const Name = styled.div`margin-top: 8px;`;
