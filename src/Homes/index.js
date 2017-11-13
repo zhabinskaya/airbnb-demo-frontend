@@ -3,17 +3,13 @@ import styled from "styled-components";
 import Card from "./Card";
 import arrow from "./arrow.svg";
 import nextpage from "./next-page@2x.png";
+import { Title } from "../Ui.js";
 
 const Header = styled.div`
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
-  align-items: center;;'
-`;
-
-const Title = styled.h2`
-  font-size: 32px;
-  line-height: 34px;
+  align-items: center;
 `;
 
 const SeeAll = styled.a`
@@ -47,8 +43,8 @@ export default props => (
         <Arrow src={arrow} />
       </SeeAll>
     </Header>
-    <div className="row">
-      <div className="col sm-8 col-md-5 col-lg-4">
+    <div className="row row-nowrap">
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-4">
         <Card
           img={require("./LaSalentina.png")}
           price="82"
@@ -58,7 +54,7 @@ export default props => (
           Entire house · 9 beds
         </Card>
       </div>
-      <div className="col sm-8 col-md-5 col-lg-4">
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-4">
         <Card
           img={require("./YourPrivate.png")}
           price="82"
@@ -68,7 +64,7 @@ export default props => (
           Entire house · 5 beds
         </Card>
       </div>
-      <div className="col sm-8 col-md-5 col-lg-4">
+      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-4">
         <Slider>
           <NextPage src={nextpage} />
         </Slider>

@@ -1,15 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Card from "./Card";
-
-const Title = styled.h2`
-  font-size: 24px;
-  line-height: 34px;
-
-  @media screen and (min-width: 768px) {
-    font-size: 32px;
-  }
-`;
+import { Title } from "../Ui.js";
 
 export default props => (
   <div className="container">

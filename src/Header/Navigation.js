@@ -10,7 +10,7 @@ const Navigation = styled.nav`
   justify-content: space-between;
   margin-left: 189px;
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
   }
 `;

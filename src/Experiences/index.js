@@ -3,21 +3,12 @@ import styled from "styled-components";
 import Card from "./Card";
 import arrow from "./arrow.svg";
 import nextpage from "./next-page@2x.png";
+import { Title } from "../Ui.js";
 
 const ExpHeader = styled.div`
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
   align-items: center;
-`;
-
-const Title = styled.h2`
-  font-size: 24px;
-  line-height: 34px;
-
-  @media screen and (min-width: 768px) {
-    font-size: 32px;
-  }
 `;
 
 const SeeAll = styled.a`
@@ -52,22 +43,22 @@ export default props => (
       </SeeAll>
     </ExpHeader>
     <div className="row row-nowrap">
-      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
+      <div className="col-xs-3 col-sm-3 col-md-4 col-lg-3">
         <Card img={require("./Forest therapy.png")} price="29" reviews="44">
           Forest therapy
         </Card>
       </div>
-      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
+      <div className="col-xs-3 col-sm-3 col-md-4 col-lg-3">
         <Card img={require("./Whale watching.png")} price="69" reviews="34">
           Whale watching
         </Card>
       </div>
-      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
+      <div className="col-xs-3 col-sm-3 col-md-4 col-lg-3">
         <Card img={require("./TMS.png")} price="$69" reviews="44">
           Table Mountain Summit, Cable Car Down
         </Card>
       </div>
-      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
+      <div className="col-xs-3 col-sm-3 col-md-4 col-lg-3">
         <Slider>
           <NextPage src={nextpage} />
         </Slider>

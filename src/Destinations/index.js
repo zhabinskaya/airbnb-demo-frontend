@@ -2,17 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import Card from "./Card";
 import nextpage from "./next-page@2x.png";
+import { Title } from "../Ui.js";
 
 const Header = styled.div`
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
   align-items: center;;'
-`;
-
-const Title = styled.h2`
-  font-size: 32px;
-  line-height: 34px;
 `;
 
 const Arrow = styled.img`
@@ -35,8 +31,8 @@ export default props => (
     <Header>
       <Title>Featured destinations</Title>
     </Header>
-    <div className="row">
-      <div className="col-sm-4 col-md-3 col-lg-2">
+    <div className="row row-nowrap">
+      <div className="col-xs-4 col-sm-4 col-md-3 col-lg-2">
         <Card img={require("./paris.png")} city="Paris" />
       </div>
       <div className="col-sm-4 col-md-3 col-lg-2">
