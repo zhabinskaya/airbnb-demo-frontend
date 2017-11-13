@@ -8,21 +8,9 @@ import { Title } from "../Ui.js";
 const ExpHeader = styled.div`
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
+  <<<<<<<: center;
+  =======: 24px;
   align-items: center;
-=======
-  padding-top: 24px;
-  align-items: center;
-`;
-
-const Title = styled.h2`
-  font-size: 24px;
-  line-height: 34px;
-
-  @media screen and (min-width: 768px) {
-    font-size: 32px;
-  }
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
 `;
 
 const SeeAll = styled.a`
@@ -57,7 +45,6 @@ export default props => (
       </SeeAll>
     </ExpHeader>
     <div className="row row-nowrap">
-<<<<<<< HEAD
       <div className="col-xs-3 col-sm-3 col-md-4 col-lg-3">
         <Card img={require("./forest-therapy.png")} price="29" reviews="44">
           Forest therapy
@@ -74,24 +61,6 @@ export default props => (
         </Card>
       </div>
       <div className="col-xs-3 col-sm-3 col-md-4 col-lg-3">
-=======
-      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
-        <Card img={require("./Forest therapy.png")} price="29" reviews="44">
-          Forest therapy
-        </Card>
-      </div>
-      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
-        <Card img={require("./Whale watching.png")} price="69" reviews="34">
-          Whale watching
-        </Card>
-      </div>
-      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
-        <Card img={require("./TMS.png")} price="$69" reviews="44">
-          Table Mountain Summit, Cable Car Down
-        </Card>
-      </div>
-      <div className="col-xs-2 col-sm-4 col-md-4 col-lg-3">
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
         <Slider>
           <NextPage src={nextpage} />
         </Slider>

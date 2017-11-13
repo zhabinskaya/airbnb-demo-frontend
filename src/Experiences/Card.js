@@ -12,17 +12,10 @@ const Card = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 216px;
-<<<<<<< HEAD
-  margin-bottom: 24px;
 
   @media screen and (min-width: 768px) {
     height: 346px;
-=======
-  margin-buttom: 24px;
-
-  @media screen and (min-width: 576px) {
-    height: 347px;
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
+    margin-buttom: 24px;
   }
 `;
 

@@ -31,13 +31,8 @@ export default props => (
     <Header>
       <Title>Featured destinations</Title>
     </Header>
-<<<<<<< HEAD
     <div className="row row-nowrap">
       <div className="col-xs-4 col-sm-4 col-md-3 col-lg-2">
-=======
-    <div className="row">
-      <div className="col-sm-4 col-md-3 col-lg-2">
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
         <Card img={require("./paris.png")} city="Paris" />
       </div>
       <div className="col-sm-4 col-md-3 col-lg-2">

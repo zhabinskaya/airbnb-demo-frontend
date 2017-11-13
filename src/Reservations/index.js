@@ -43,13 +43,8 @@ export default props => (
         <Arrow src={arrow} />
       </SeeAll>
     </Header>
-<<<<<<< HEAD
     <div className="row row-nowrap">
       <div className="col-xs-2 col-sm-2 col-md-4 col-lg-3">
-=======
-    <div className="row">
-      <div className="col-sm-6 col-md-4 col-lg-3">
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
         <Card
           img={require("./chumley’s.png")}
           category="SPEAKEASY"
@@ -58,11 +53,7 @@ export default props => (
           subtitle="About $60 per person"
         />
       </div>
-<<<<<<< HEAD
       <div className="col-xs-2 col-sm-2 col-md-4 col-lg-3">
-=======
-      <div className="col-sm-6 col-md-4 col-lg-3">
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
         <Card
           img={require("./hanjan.png")}
           category="KOREAN GASTROPUB"
@@ -71,11 +62,7 @@ export default props => (
           subtitle="About $50 per person"
         />
       </div>
-<<<<<<< HEAD
       <div className="col-xs-2 col-sm-2 col-md-4 col-lg-3">
-=======
-      <div className="col-sm-6 col-md-4 col-lg-3">
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
         <Card
           img={require("./prime-meats.png")}
           category="GERMAN AMIRICAN"
@@ -84,11 +71,7 @@ export default props => (
           subtitle="About $55 per person"
         />
       </div>
-<<<<<<< HEAD
       <div className="col-xs-2 col-sm-2 col-md-4 col-lg-3">
-=======
-      <div className="col-sm-6 col-md-4 col-lg-3">
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
         <Slider>
           <NextPage src={nextpage} />
         </Slider>

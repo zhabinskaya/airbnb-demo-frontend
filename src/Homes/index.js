@@ -43,13 +43,8 @@ export default props => (
         <Arrow src={arrow} />
       </SeeAll>
     </Header>
-<<<<<<< HEAD
     <div className="row row-nowrap">
       <div className="col-xs-2 col-sm-4 col-md-4 col-lg-4">
-=======
-    <div className="row">
-      <div className="col sm-8 col-md-5 col-lg-4">
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
         <Card
           img={require("./la-salentina.png")}
           price="82"
@@ -59,11 +54,7 @@ export default props => (
           Entire house · 9 beds
         </Card>
       </div>
-<<<<<<< HEAD
       <div className="col-xs-2 col-sm-4 col-md-4 col-lg-4">
-=======
-      <div className="col sm-8 col-md-5 col-lg-4">
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
         <Card
           img={require("./your-private.png")}
           price="82"
@@ -73,11 +64,7 @@ export default props => (
           Entire house · 5 beds
         </Card>
       </div>
-<<<<<<< HEAD
       <div className="col-xs-2 col-sm-4 col-md-4 col-lg-4">
-=======
-      <div className="col sm-8 col-md-5 col-lg-4">
->>>>>>> 863a59e3a073083f67d238749cd7a567e1d50bb5
         <Slider>
           <NextPage src={nextpage} />
         </Slider>
