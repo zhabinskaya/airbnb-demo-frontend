@@ -36,7 +36,7 @@ const RightCopy = styled.div`
   align-items: center;
 `;
 
-const Nav = styled.div`display: flex;`;
+const Nav = styled.nav`display: flex;`;
 
 const Social = styled.div`
   padding-left: 21px;

@@ -42,7 +42,7 @@ export default props => (
   <Settings>
     <Lang>
       <form>
-        <label for="input">
+        <label htmlFor="input">
           <Input type="text" id="input" placeholder="English" />
         </label>
       </form>
@@ -51,7 +51,7 @@ export default props => (
     </Lang>
     <Currency>
       <form>
-        <label for="input">
+        <label htmlFor="input">
           <Input type="text" id="input" placeholder="United States dollar" />
         </label>
       </form>

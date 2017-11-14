@@ -45,7 +45,7 @@ export default () => (
   <Search>
     <Img src={search} />
     <form>
-      <label for="input">
+      <label htmlFor="input">
         <Input type="text" id="input" placeholder="Try Miami" />
       </label>
     </form>

@@ -8,8 +8,6 @@ import { Title } from "../Ui.js";
 const ExpHeader = styled.div`
   display: flex;
   justify-content: space-between;
-  <<<<<<<: center;
-  =======: 24px;
   align-items: center;
 `;
 

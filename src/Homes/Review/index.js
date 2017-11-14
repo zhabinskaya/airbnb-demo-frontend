@@ -20,11 +20,11 @@ const Text = styled.span`
 
 export default props => (
   <Review>
-    <Img src={require("./Shape@2x.png")} />
-    <Img src={require("./Shape@2x.png")} />
-    <Img src={require("./Shape@2x.png")} />
-    <Img src={require("./Shape@2x.png")} />
-    <Img src={require("./Shape@2x.png")} />
+    <Img src={require("./star.svg")} />
+    <Img src={require("./star.svg")} />
+    <Img src={require("./star.svg")} />
+    <Img src={require("./star.svg")} />
+    <Img src={require("./star.svg")} />
     <Text>{props.reviews} Superhost</Text>
   </Review>
 );

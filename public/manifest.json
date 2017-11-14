@@ -1,6 +1,6 @@
 {
-  "short_name": "Airbnb frontend",
-  "name": "Create React App Sample",
+  "short_name": "Airbnb",
+  "name": "Airbnb frontend",
   "icons": [
     {
       "src": "favicon.ico",
